@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.box {
+    width: 1500px;
+    height: 300px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.item {
+    width: 340px;
+    height: 290px;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    /* horizantal yonalish boyicha ishlaydi */
+    display: flex;
+    align-items: center;
+    /* vertical yonalishi boyicha ishlaydi */
+    /* padding-top: 40px; */
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+ul {
+    gap: 124px;
+    display: flex;
+    justify-content: space-around;
+    width: 1238px;
+    height: 40px;
+    color: black;
+    padding-top: 40px;
+    justify-content: center;
+    padding-left: 150px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
